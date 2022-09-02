@@ -36,7 +36,7 @@ video{
     top: 20%;
     width: 50px;
     border-radius: 50%;
-    background-color:  rgba(139, 53, 53, 0.594);
+    /* background-color:  rgba(139, 53, 53, 0.594); */
     display: flex;
     overflow: hidden;
     -webkit-transform: translateX(-50%);
@@ -49,13 +49,18 @@ video{
     -o-border-radius: 50%;
 }
 
-.far{
+.fa-solid{
     margin: 1px;
-    transform: translate(0px);
-    -webkit-transform: translate(0px);
-    -moz-transform: translate(0px);
-    -ms-transform: translate(0px);
-    -o-transform: translate(0px);
+    transform: translateX(0);
+    transition: transform 0.2s;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    -webkit-transition: transform 0.2s;
+    -moz-transition: transform 0.2s;
+    -ms-transition: transform 0.2s;
+    -o-transition: transform 0.2s;
 }
 
 
@@ -69,6 +74,7 @@ video{
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
 }
+
 .fa-star{
     color: lightgray;
     cursor: pointer;
